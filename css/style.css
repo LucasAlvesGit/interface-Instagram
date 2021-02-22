@@ -76,9 +76,83 @@ body {
   height: 6rem;
 }
 
+.instagram-login {
+  background-color: #0095f6;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px;
+}
+
+.instagram-logout {
+  color: #0095f6;
+  margin-top: 1rem;
+}
+
+.not-account {
+  color: rgb(160, 160, 160);
+}
+
+.link-blue {
+  color: #0095f6;
+  font-weight: bold;
+}
+
+.get-the-app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.3rem 0;
+  width: 100%;
+}
+
+.download {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  width: 100%;
+}
+
+.app-download {
+  background-size: cover;
+  height: 3rem;
+  width: 10rem;
+}
+
+.app-download:nth-child(1) {
+  background-image: url(../img/apple-button.png);
+}
+
+.app-download:nth-child(2) {
+  background-image: url(../img/googleplay-button.png);
+}
 
 
+@media (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+  
+  .instagram-phone {
+    display: none;
+  }
+  
+  .instagram-continue {
+    width: 100%;
+    
+  }
+  
+  .group {
+    background-color: rgb(243, 243, 243);
+    border: transparent;
+  }
 
 
-
-
+}
